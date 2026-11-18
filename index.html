@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sean Pedrick-Case — Data Scientist</title>
+  <meta name="description" content="Sean Pedrick-Case is a data scientist in local government in London, building open-source ML and AI tools — document redaction, LLM topic modelling, RAG-based chatbots, and more.">
+  <meta property="og:title" content="Sean Pedrick-Case — Data Scientist">
+  <meta property="og:description" content="Open-source ML and AI tools for those without GPUs. Data scientist in local government, London, UK.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://seanpedrick-case.github.io/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/projects.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">Sean Pedrick-Case</a>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="nav-github" href="https://github.com/seanpedrick-case" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <p class="hero-eyebrow">Data scientist · London, UK</p>
+        <h1>Sean Pedrick-Case</h1>
+        <p class="hero-lede">
+          I build open-source ML and AI tools for resource-constrained organisations. Interested in the safe deployment of evaluation of AI solutions.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View my projects</a>
+          <a class="btn btn-secondary" href="https://github.com/seanpedrick-case" target="_blank" rel="noopener">GitHub profile</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Projects</h2>
+      <p class="section-intro">
+        A selection of open-source projects I've recently worked on. Each one is on
+        GitHub, and most have a live demo linked underneath that you can try (on Hugging Face).
+      </p>
+      <h3 class="subsection-title">Featured</h3>
+      <div id="featured-grid" class="card-grid"></div>
+      <h3 class="subsection-title">All projects</h3>
+      <div id="project-grid" class="card-grid"></div>
+      <noscript><p>Enable JavaScript to see the project list, or browse the repos directly on <a href="https://github.com/seanpedrick-case?tab=repositories">GitHub</a>.</p></noscript>
+    </section>
+
+    <section id="writing" class="section section-alt">
+      <div class="container">
+        <h2>Blog</h2>
+        <p class="section-intro">Notes and experiments from my projects (for now, articles on the document redaction app, but I will add to this in the near future).</p>
+        <div id="latest-posts" class="post-list"></div>
+        <p><a href="blog.html">All posts</a></p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>
+          I'm a data scientist working in local government in London. My work sits at the
+          intersection of public services and AI in a resource-constrained environment.
+          In my time in my current role I have created numerous data science tools
+	  to help improve services in the borough. These include an app to analyse 
+          open-text survey data with LLMs, a tool to link free text address data, and an app
+	  to make sensitive documents safe to share through redaction.
+        </p>
+	<p>
+	  For all of these solutions,
+	  safety, and reliability are paramount to best serve our residents. For this reason, I have a
+	  particular interest in creating highly secure AI solutions with evaluation and monitoring
+	  at the forefront of design.
+	</p>
+	<p>
+          I work on other projects that I can't yet share publicly as a repo, but I have also
+	  done a lot of work to create machine learning models within a social care setting to
+	  improve the efficiency of repetitive processes in the review process. More details
+	  on my other projects can be seen on <a href="https://www.linkedin.com/in/sean-pedrick-case-7931aa1a/" target="_blank" rel="noopener">my LinkedIn profile</a>.
+        </p>
+        <ul class="skill-list">
+          <li>Python</li>
+          <li>LLM applications &amp; topic modelling</li>
+          <li>Record linkage &amp; fuzzy matching</li>
+          <li>PII detection &amp; redaction</li>
+          <li>Gradio apps</li>
+          <li>SQL &amp; data pipelines</li>
+          <li>AWS (Bedrock, etc.)</li>
+          <li>Local government / public sector data</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section container narrow">
+      <h2>Get in touch</h2>
+      <p>The best way to reach me is on LinkedIn:</p>
+      <ul class="contact-list">
+	<li><a href="https://www.linkedin.com/in/sean-pedrick-case-7931aa1a/" target="_blank" rel="noopener">LinkedIn - My LinkedIn profile</a></li>
+        <li><a href="https://github.com/seanpedrick-case" target="_blank" rel="noopener">GitHub - @seanpedrick-case</a></li>
+        <li><a href="https://bsky.app/profile/seanpedrickcase.bsky.social" target="_blank" rel="noopener">Bluesky - @seanpedrickcase.bsky.social</a></li>
+        <li><a href="https://huggingface.co/seanpedrickcase" target="_blank" rel="noopener">Hugging Face - live demos of my AI tools</a></li>
+	
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Sean Pedrick-Case · Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> · <a href="https://github.com/seanpedrick-case/seanpedrick-case.github.io" target="_blank" rel="noopener">Source</a></p>
+    </div>
+  </footer>
+</body>
+</html>
